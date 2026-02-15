@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZaCoSyd — Screen Time That Builds Minds</title>
+  <style>
+    :root{
+      --blue:#3b82c4;
+      --green:#65b779;
+      --yellow:#ffd25a;
+      --bg:#f5fbff;
+      --text:#2b2b2b;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial, Helvetica, sans-serif}
+    body{background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:white;padding:15px 30px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;box-shadow:0 2px 8px rgba(0,0,0,.05);z-index:10}
+    nav a{margin:0 12px;text-decoration:none;color:var(--blue);font-weight:bold}
+    nav a:hover{color:var(--green)}
+    .hero{padding:60px 20px;text-align:center}
+    .hero img{max-width:180px;margin-bottom:20px}
+    h1{font-size:2.8rem;color:var(--blue)}
+    h2{margin-bottom:15px;color:var(--blue)}
+    .slogan{font-size:1.3rem;color:var(--green);margin-top:10px;font-weight:bold}
+    section{padding:60px 20px;max-width:1000px;margin:auto}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+    .card{background:white;padding:20px;border-radius:16px;box-shadow:0 4px 12px rgba(0,0,0,.07);text-align:center}
+    .card h3{color:var(--green)}
+    .screenshots img{width:100%;border-radius:14px;box-shadow:0 4px 10px rgba(0,0,0,.1)}
+    footer{background:var(--blue);color:white;text-align:center;padding:30px;margin-top:40px}
+    .contact a{color:var(--green);text-decoration:none;font-weight:bold}
+  </style>
+</head>
+<body>
+
+<header>
+  <strong style="color:var(--blue)">ZaCoSyd</strong>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#screenshots">Screenshots</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <img src="logo-1.jpeg" alt="ZaCoSyd Logo" />
+  <h1>ZaCoSyd</h1>
+  <div class="slogan">Screen Time That Builds Minds</div>
+  <p style="margin-top:20px">Kid‑friendly mobile learning apps designed to inspire curiosity, creativity, and confidence.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>ZaCoSyd creates educational mobile apps that kids actually want to use — and parents feel good about. Our mission is to transform screen time into meaningful learning experiences through fun gameplay, engaging visuals, and age‑appropriate challenges.</p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Spelling Bee</h3>
+      <p>Add your spelling words and I'll help you learn them with sounds and hints!</p>
+<!--    </div>
+    <div class="card">
+      <h3>Math Explorers</h3>
+      <p>Counting, patterns, and problem‑solving in a playful world.</p>
+    </div>
+    <div class="card">
+      <h3>Science Quest</h3>
+      <p>Discover animals, space, and nature through mini‑challenges.</p>
+    </div> -->
+  </div>
+</section>
+
+<section id="screenshots" class="screenshots">
+  <h2>App Screenshots</h2>
+  <div class="cards">
+    <img src="sb_get_started.jpg" alt="Screenshot 1">
+    <img src="sb_hear.jpg" alt="Screenshot 2">
+    <img src="sb_cat.jpg" alt="Screenshot 3">
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:hello@zacosyd.com">support@zacosyd.com</a></p>
+  <p>We love hearing from parents, educators, and partners!</p>
+</section>
+
+<footer>
+  <p>© 2026 ZaCoSyd — Screen Time That Builds Minds</p>
+</footer>
+
+</body>
+</html>
